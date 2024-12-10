@@ -1,0 +1,307 @@
+body{
+    background-image: url(Index/FondoWeb.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+#web {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#ImagenCabecera{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cabecera{
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+
+#Logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#Logo a{
+    display: block;
+}
+
+#barraHorizontal{
+    height: 40px;
+    background-color: #CF0006;
+    border: 1px outset #CF0006;
+    padding-bottom: 10px;
+    
+}
+
+.menuHorizontal{
+    list-style-type: none;
+    margin-left: 1%;
+}
+
+li{
+    font-family: fantasy;
+}
+
+li a{
+    color: white;
+}
+
+.menuHorizontal li{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 1px;
+    margin-left: 50px;
+    background-color: #CF0006;
+}
+
+.menuHorizontal li:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+a:link, a:visited, a:active{
+    color: black;
+    text-decoration: none;
+}
+
+#bloqueRedes{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#bloqueRedes a{
+   margin: 0 10px; 
+}
+
+#bloqueRedes img{
+    width: 40px;
+    height: 40px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+#menu{
+    width: 200px;
+    margin: 0;
+}
+
+#menu>li{
+    background-color: #CF0006;
+    border: solid 1px #CF0006;
+    padding: 5px;
+    position: relative;
+}
+
+.submenu{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    display: none;
+}
+
+.submenu>li{
+    background-color: #CF0006;
+    border: 1px outset #CF0006;
+    width: 180px;
+    padding: 2px;
+}
+
+#menu li:hover{
+    background-color: #CF0006;
+    color: white;
+    cursor: pointer;
+}
+
+#menu>li:hover ul{
+    display: block;
+}
+
+#ImagenesIndex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Img1{
+    margin: 10px;
+}
+
+.Img2{
+    margin: 10px;
+}
+
+
+
+/*TRAMA*/
+.Creador{
+    font-family: copperplate;
+    text-align: center;
+    font-size: large;
+}
+
+#ImágenesTrama {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ImágenesTrama .Coche{
+    margin: 10px;
+}
+#ImágenesTrama .Takumi {
+    margin: 10px;
+}
+
+#ImágenesTrama img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/*FORMULARIO DE CONTACTO*/
+#formularioContacto {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#formularioContacto h2 {
+    text-align: center;
+    color: red;
+}
+
+#formularioContacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+#formularioContacto input,
+#formularioContacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+
+#formularioContacto input[type="submit"] {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#ImagenLike{
+    margin: 10px;
+}
+
+#ImagenLike img {
+    max-width: 100%;
+    height: auto;
+}
+
+#ImagenLike {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*SECUELA*/
+
+#SecuelaContexto{
+    font-family: copperplate;
+    text-align: center;
+    font-size: large;
+}
+
+#SecuelaImg{
+    margin: 10px auto;
+}
+
+
+/*VÍDEOS*/
+/*HE MIRADO EN INTERNET CÓMO INSERTAR VÍDEOS DE YOUTUBE*/
+
+#ContenedorVideos1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.video {
+    text-align: center;
+    width: 600px;
+    margin: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 350px;
+    border: 1px solid black;
+}
+
+#ContenedorVideos2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+/*MÚSICA*/
+
+#ContenedorMusica1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#ContenedorMusica2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.video {
+    text-align: center;
+    width: 600px;
+    margin: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 350px;
+    border: 1px solid black;
+}
